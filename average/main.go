@@ -17,6 +17,6 @@ func main() {
 	for _, number := range numbers {
 		sum += number
 	}
-	sampleCount := float(len(numbers))
+	sampleCount := float64(len(numbers))
 	fmt.Printf("Average ")
 }
