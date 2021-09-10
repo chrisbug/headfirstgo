@@ -9,6 +9,12 @@ import (
 )
 
 func main() {
+	array := [5]string{"a", "b", "c", "d", "e"}
+	slice := array[1:3]
+	fmt.Println(slice)
+}
+
+func main2() {
 	numbers, err := datafile.GetFloats("data.txt")
 	if err != nil {
 		log.Fatal(err)
