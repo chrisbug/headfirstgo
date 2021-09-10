@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/headfirstgo/datafile"
+	"github.com/chrisbug/headfirstgo/datafile"
 )
 
 func main() {
@@ -18,5 +18,5 @@ func main() {
 		sum += number
 	}
 	sampleCount := float64(len(numbers))
-	fmt.Printf("Average ")
+	fmt.Printf("Average:%0.2f\n", sum/sampleCount)
 }
