@@ -1,5 +1,3 @@
-module example.com/m
+module headfirstgo
 
 go 1.16
-
-require github.com/chrisbug/headfirstgo v0.0.0-20210911194221-4aac28fe4915
