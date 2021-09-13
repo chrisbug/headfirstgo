@@ -1,3 +1,4 @@
+// Package datafile allows reading data samples from files.
 package datafile
 
 import (
