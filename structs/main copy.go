@@ -28,7 +28,7 @@ func applyDiscount(s *subscriber) {
 	s.rate = 4.99
 }
 
-func main() {
+func main2() {
 	subscriber1 := defaultSubscriber("Aman Singh")
 	subscriber1.rate = 4.99
 
