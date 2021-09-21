@@ -1,3 +1,4 @@
+// Holds the types used with magzines
 package magazine
 
 type Subscriber struct {
